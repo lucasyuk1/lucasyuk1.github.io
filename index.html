@@ -6,24 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
-            background-color:darkgrey;
+            background-color:darkblue;
         }
-        h1 {
+        h1,h2,h3 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin-left: auto;
-            margin-right: auto;
-            width: 7em;
-        }
-        p {
-            font-family: sans-serif;
-            color: blueviolet;
-            font-size: 17px;
+            text-align: center;
+            color: aqua;
             
+        }
+        p, .link {
+            font-family: sans-serif;
+            color:aqua;
+            font-size: 17px;
+            text-align: center;
+            width: 450px; 
+            margin-left: auto;
+            margin-right: auto; 
+            text-decoration: none;
+        }
+        .bot{
+            font-family: Arial, Helvetica, sans-serif;
+            color:blue;
+            background-color: aliceblue;
+            border-radius: 20px;
+            padding: 5px 30px 5px 30px;
+            text-decoration: none;
+            width: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        ul, ol {
+            font-family: sans-serif;
+            color:aqua;
+            font-size: 17px;
+            text-decoration: none;
+            width: 300px; 
+            margin-left: auto;
+            margin-right: auto; 
         }
         img {
             display: block;
             margin-left: auto;
             margin-right: auto; 
+            border-radius: 10%;
             }
     </style>
     <title>Lucas C. Silveira</title>
@@ -31,11 +57,11 @@
 <body>
     <h3>Índice</h3>
         <ol>
-           <li><a href="#sobremim">Sobre Mim</a></li>
+           <li><a class="link" href="#sobremim">Sobre Mim</a></li>
            <br>
-           <li><a href="#habilidades">Habilidades</a></li>
+           <li><a class="link"  href="#habilidades">Habilidades</a></li>
            <br>
-           <li><a href="#contato">Contato</a></li>
+           <li><a class="link"  href="#contato">Contato</a></li>
            <br>
         </ol>
     <hr>
@@ -72,8 +98,14 @@
     <a name="contato"></a>
     <h2>Contato</h2>
     
-    <a target="_blank" href="https://www.linkedin.com/in/lucas-c-silveira-8b3a09127/">Linkedin</a>
+    <a class="link bot" target="_blank" href="https://www.linkedin.com/in/lucas-c-silveira-8b3a09127/">Linkedin</a>
     <br>
-    <a target="_blank" href="https://github.com/lucasyuk1">Github</a>
+    <a class="link bot" target="_blank" href="https://github.com/lucasyuk1">Github</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
