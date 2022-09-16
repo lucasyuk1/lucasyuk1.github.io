@@ -4,58 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body{
-            background-color:darkblue;
-        }
-        h1,h2,h3 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: center;
-            color: aqua;
-            
-        }
-        p, .link {
-            font-family: sans-serif;
-            color:aqua;
-            font-size: 17px;
-            text-align: center;
-            width: 450px; 
-            margin-left: auto;
-            margin-right: auto; 
-            text-decoration: none;
-        }
-        .bot{
-            font-family: Arial, Helvetica, sans-serif;
-            color:blue;
-            background-color: aliceblue;
-            border-radius: 20px;
-            padding: 5px 30px 5px 30px;
-            text-decoration: none;
-            width: 100px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto; 
-        }
-        ul, ol {
-            font-family: sans-serif;
-            color:aqua;
-            font-size: 17px;
-            text-decoration: none;
-            width: 300px; 
-            margin-left: auto;
-            margin-right: auto; 
-        }
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto; 
-            border-radius: 10%;
-            }
-    </style>
     <title>Lucas C. Silveira</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h3>Índice</h3>
+    <div class="header">
+        <h3>Índice</h3>
         <ol>
            <li><a class="link" href="#sobremim">Sobre Mim</a></li>
            <br>
@@ -64,48 +18,67 @@
            <li><a class="link"  href="#contato">Contato</a></li>
            <br>
         </ol>
-    <hr>
+    
+    </div>
+    
     <!--Seção1-->
-    <h1>Lucas Cabral Silveira</h1>
-    <img src="perfil.jpeg" alt="perfil" width="200px">
-    <p>Experiência de mais de 2 anos trabalhando com gestão de pessoas e análise de dados. Conhecimento avançado do pacote Office. Analítico, bom relacionamento interpessoal e organizado. Grande apreciador de animações, jogos no geral e cozinheiro nas horas vagas.
-    </p>
+    <div class="description">
+        <h1>Lucas Cabral Silveira</h1>
+        <div class="desc-left">
+            <img src="perfil.jpeg" alt="perfil" width="200px">
+        </div>
+        <div class="desc-right">
+            <p>Experiência de mais de 2 anos trabalhando com gestão de pessoas e análise de dados. Conhecimento avançado do pacote Office. Analítico, bom relacionamento interpessoal e organizado. Grande apreciador de animações, jogos no geral e cozinheiro nas horas vagas.
+            </p>
+        </div>
+        
+    </div>
     <hr>
 
     <!--Seção2-->
     <a name="sobremim"></a>
-    <h2>Sobre mim</h2>    
-    <p>Formado em <em> Análise e desenvolvimento de Sistemas</em> e atualmente estudante da 
-       <strong>Trybe</strong>, <strong>Brasileiro, </strong>29 anos, morador de <strong>São José do Norte-RS</strong></p>
-    <hr>
+
+    <div class="about">
+        <h2>Sobre mim</h2>    
+        <div class="about-info">
+            <p>Formado em <em> Análise e desenvolvimento de Sistemas</em> e atualmente estudante da 
+                <strong>Trybe</strong>, <strong>Brasileiro, </strong>29 anos, morador de <strong>São José do Norte-RS</strong>
+            </p>
+        </div>
+        <hr>
+    </div>
+   
 
     <!--Seção3-->
-    <a name="habilidades"></a>    
-    <h2>Habilidades</h2>
+    <a name="habilidades"></a>  
+    <div class="skills">
+        <h2>Habilidades</h2>
+        <div class="skillist">
+            <ul>
+                <li> <strong> Boa comunicação em grupos;</strong></li>
+                <li>Empatia;</li>
+                <li>Acostumado a trabalhar sobre pressão;</li>
+                <li>Experiência com gestão de conflitos;</li>
+                <li>Conhecimento avançado das ferramentas Office;</li>
+                <li>Experiência de 3 anos com gestão de equipes;</li>
+                <li>Inglês avançado;</li>        
+            </ul>
+            
+        </div>
+        
+    </div>  
     
-    <ul>
-        <li> <strong> Boa comunicação em grupos;</strong></li>
-        <li>Empatia;</li>
-        <li>Acostumado a trabalhar sobre pressão;</li>
-        <li>Experiência com gestão de conflitos;</li>
-        <li>Conhecimento avançado das ferramentas Office;</li>
-        <li>Experiência de 3 anos com gestão de equipes;</li>
-        <li>Inglês avançado;</li>        
-    </ul>
-    <hr>
 
     <!--Seção4-->
     <a name="contato"></a>
-    <h2>Contato</h2>
+    <div class="contact">
+        <h2>Contato</h2>
     
-    <a class="link bot" target="_blank" href="https://www.linkedin.com/in/lucas-c-silveira-8b3a09127/">Linkedin</a>
-    <br>
-    <a class="link bot" target="_blank" href="https://github.com/lucasyuk1">Github</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <a class="link bot" target="_blank" href="https://www.linkedin.com/in/lucas-c-silveira-8b3a09127/">Linkedin</a>
+        <br>
+        <a class="link bot" target="_blank" href="https://github.com/lucasyuk1">Github</a>
+    </div>
+    
+    
 </body>
 </html>

@@ -1,0 +1,106 @@
+body{
+    background-color:darkblue;
+}
+h1,h2,h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aqua;
+    font-size: 40px;    
+}
+
+.header {
+    /* border: 8px solid red; */
+    /* width: 100%; */
+    background-image: url(./head.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 20px; 
+
+}
+
+.description{
+    /* border: 8px solid red; */
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.desc-left{
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+.desc-right{
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+.about{
+    /* border: 8px solid red; */
+    padding: 40px;
+}
+
+.about-info{
+    /* border: 8px solid red; */
+    padding: 20px;
+}
+
+.skills{
+    padding: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+.skillist{
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    
+}
+
+.contact{
+    padding-bottom: 80px;
+
+}
+
+p, .link {
+    font-family: sans-serif;
+    color:aqua;
+    font-size: 17px;
+    text-align: center;
+    width: 450px; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-decoration: none;
+}
+.bot{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+ul, ol {
+    font-family: sans-serif;
+    color:aqua;
+    font-size: 17px;
+    text-decoration: none;
+    width: 300px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10%;
+}
