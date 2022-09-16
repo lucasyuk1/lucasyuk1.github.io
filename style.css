@@ -7,6 +7,35 @@ h1,h2,h3 {
     color: aqua;
     
 }
+.header {
+    /* border: 8px solid red; */
+    background-image: url(./portfolio-background-header.jpg);
+    background-position: 80%;
+    margin: 0;
+    padding: 20px;
+}
+
+.description{
+    /* border: 8px solid red; */
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.desc-left{
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+.desc-right{
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
 p, .link {
     font-family: sans-serif;
     color:aqua;
