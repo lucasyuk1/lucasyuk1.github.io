@@ -10,7 +10,6 @@ h1,h2,h3 {
 }
 
 .header {
-    /* border: 8px solid red; */
     width: 30%;
     display: flex;
     text-align: center;
@@ -18,7 +17,6 @@ h1,h2,h3 {
 }
 
 .description{
-    /* border: 8px solid red; */
     width: 80%;
     margin: auto;
     padding-bottom: 40px;
@@ -33,20 +31,15 @@ h1,h2,h3 {
     margin: auto;
 }
 
-.about{
-    /* border: 8px solid red; */
-    padding: 40px;
-}
-
 .about-info{
-    /* border: 8px solid red; */
     padding: 20px;
 }
 
 .skills{
-    padding: 40px;
-    width: 60%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillist{
@@ -112,4 +105,37 @@ ol {
     display: flex;
     flex-direction: column;
     padding: 10px;    
+}
+
+@media (max-width: 600px)
+{
+    
+    h1,h2,h3 {
+        font-size: 25px;
+        justify-content: center;
+    }
+    
+    .description{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #imgPerfil {
+        border-radius: 10%;
+        width: 150px;
+    }
+
+    p {
+        width: 250px;
+    }
+    
+    .skillist {
+        border: none;
+        justify-content: center;
+    }
+   
+    
 }
