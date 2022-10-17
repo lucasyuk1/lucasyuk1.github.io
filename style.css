@@ -10,12 +10,10 @@ h1,h2,h3 {
 
 .header {
     /* border: 8px solid red; */
-    /* width: 100%; */
-    background-image: url(./head.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    padding: 20px; 
-
+    width: 30%;
+    display: flex;
+    text-align: center;
+    margin: auto;
 }
 
 .description{
@@ -23,19 +21,14 @@ h1,h2,h3 {
     width: 80%;
     margin: auto;
     padding-bottom: 40px;
+    display: flex;
 }
 
 .desc-left{
-    width: 40%;
-    vertical-align: middle;
-    display: inline-block;
     margin: auto;
 }
 
 .desc-right{
-    width: 40%;
-    vertical-align: middle;
-    display: inline-block;
     margin: auto;
 }
 
@@ -58,8 +51,7 @@ h1,h2,h3 {
 .skillist{
     padding: 30px;
     border: 2px solid white;
-    border-radius: 100%;
-    
+    border-radius: 100%;    
 }
 
 .contact{
@@ -67,7 +59,7 @@ h1,h2,h3 {
 
 }
 
-p, .link {
+p {
     font-family: sans-serif;
     color:aqua;
     font-size: 17px;
@@ -98,9 +90,33 @@ ul, ol {
     margin-left: auto;
     margin-right: auto; 
 }
-img {
-    display: block;
+
+ol {
+    list-style-type: none;
+    color: aliceblue;
+}
+
+#imgPerfil {
     margin-left: auto;
     margin-right: auto; 
     border-radius: 10%;
+    width: 200px;
+}
+
+.imgProj {
+    width: 250px;
+}
+
+.port {
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 5px red solid; */
 }
