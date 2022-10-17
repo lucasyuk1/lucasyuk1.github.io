@@ -21,6 +21,7 @@ h1,h2,h3 {
     margin: auto;
     padding-bottom: 40px;
     display: flex;
+    flex-direction: column;
 }
 
 .desc-left{
@@ -44,8 +45,6 @@ h1,h2,h3 {
 
 .skillist{
     padding: 30px;
-    border: 2px solid white;
-    border-radius: 100%;    
 }
 
 .contact{
