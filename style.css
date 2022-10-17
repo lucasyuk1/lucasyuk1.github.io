@@ -111,12 +111,14 @@ ol {
     text-align: center;
     color: aliceblue;
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
     /* border: 5px red solid; */
 }
